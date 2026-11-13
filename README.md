@@ -15,82 +15,27 @@
 
 ---
 
-### About
-
-Undergraduate in Information Technology at VIT Vellore ('28). My work focuses on systems programming, quantitative modeling, and neuro-symbolic verification.
-
----
+Undergraduate in Information Technology at VIT Vellore ('28) working on low-level systems, quantitative finance, and neuro-symbolic reasoning.
 
 ### Experience
 
-#### SignSetu — QA / SDET Intern
-*May 2026 – September 2026 | Remote*
-- Diagnosed uncancelled Promise leaks causing Over-The-Air (OTA) update failures on slow networks; resolved race conditions between the JavaScript thread and native background schedulers.
-- Audited entitlement logic and payment migrations; added webhook idempotency guards and schema validation to eliminate duplicate ledger writes.
-- Traced circular authentication redirect loops to stale client-side cache state; identified and resolved an email auto-linking issue in auth middleware.
-- Restructured MongoDB progress tracking queries to use bounded array patterns, eliminating non-atomic read-modify-write conflicts and preventing document size limit overflow.
-- Designed a 2-agent automated end-to-end testing harness using Playwright and Maestro with structured Markdown handoffs for CI/CD pipelines.
+- **SignSetu** — *QA / SDET Intern (May 2026 – Sep 2026)*  
+  Diagnosed mobile OS bridge race conditions on slow networks, implemented payment webhook idempotency, and built an automated 2-agent E2E testing framework using Playwright and Maestro.
+- **Infotact Solutions** — *Full-Stack Intern (May 2025 – Aug 2025)*  
+  Developed modular React UI components, designed MongoDB schemas, and built REST APIs with Node.js and Express.
 
-#### Infotact Solutions — Full-Stack Web Development Intern
-*May 2025 – August 2025 | Remote*
-- Built modular front-end components in React with client-side form validation.
-- Designed MongoDB schemas and implemented Mongoose models; developed RESTful API routes in Node.js and Express.
-- Optimized query performance through compound indexing and response caching.
+### Research & Projects
 
----
+- **[Handwritten Proof Verifier](https://github.com/DheerajS-DM/Assertion-level-Handwriting-Proof-Verification-Engine)** *(Lead Co-Inventor, Indian Patent App: 202641043577)*  
+  Neuro-symbolic verification engine combining DenseNet-121 OCR, Z3 SMT solver, and Lean 4 for real-time mathematical proof checking.
+- **[BrainQuant](https://github.com/DheerajS-DM/alpha-generator)**  
+  Formula discovery and vectorized backtesting engine compiling symbolic ASTs into Polars (`pl.Expr`) and dynamic C JIT routines.
+- **[Checkpoint OS Engine](https://github.com/DheerajS-DM/os-process-checkpoint)**  
+  Userspace process recovery engine tracking dirty memory pages via `mprotect`/`SIGSEGV` with a dynamic round-robin CPU scheduler.
+- **[PromptGuard](https://github.com/DheerajS-DM/PromptGuard-Formal-Security-Engine)**  
+  Microsecond-latency prompt sanitization harness using deterministic DFA state automata in Rust.
 
-### Patents & Research
-
-#### Assertion-Level Handwritten Proof Verification Engine
-*Indian Patent Application No: 202641043577 (Published, VIT / UCSD Ref) | Lead Co-Inventor*
-- Neuro-symbolic engine combining DenseNet-121 OCR and ViT-Base layout parsing with formal theorem provers (Z3 SMT solver and Lean 4).
-- Verifies step-by-step deductive correctness across handwritten mathematical assertions in real-time, distinguishing proof-by-contradiction hypotheses from arithmetic errors.
-- [Repository](https://github.com/DheerajS-DM/Assertion-level-Handwriting-Proof-Verification-Engine)
-
----
-
-### Selected Projects
-
-#### [BrainQuant Generator](https://github.com/DheerajS-DM/alpha-generator)
-*Python, Polars, C/C++, FastAPI*
-- Formula discovery, AST transpilation, and vectorized backtesting engine for quantitative trading alphas.
-- Translates symbolic formula trees into vectorized Polars expressions (`pl.Expr`) and dynamic C JIT routines.
-- Multi-threaded Parquet ingestion pipeline pulling historical OHLCV data for 500+ equities with a flat sub-1.2 GB RSS footprint.
-
-#### [PromptGuard](https://github.com/DheerajS-DM/PromptGuard-Formal-Security-Engine)
-*Rust, Tauri v2, React 19*
-- Input security harness using deterministic DFA state automata to audit and sanitize prompt inputs before dispatch to LLMs.
-- Native cross-platform desktop UI built with Tauri v2, React 19, and Tailwind CSS.
-
-#### [Checkpoint-Based Process Recovery Engine](https://github.com/DheerajS-DM/os-process-checkpoint)
-*C, Linux*
-- Userspace fault-tolerant execution engine with incremental memory page snapshotting.
-- Tracks dirty memory pages by intercepting write faults using `mprotect` and `SIGSEGV` handlers.
-- Implemented the Dynamic Priority Circulation Round-Robin (DPC-RR) CPU scheduler with lockless POSIX shared-memory telemetry.
-
-#### [Cloud AI Collaboration Platform](https://github.com/DheerajS-DM/cloud-AI-colllab-platform)
-*FastAPI, Kubernetes, Kafka, Next.js, pycrdt*
-- Collaborative editing platform using zero-lock CRDT synchronization (`pycrdt`) to merge concurrent edits deterministically.
-- Auto-provisions ephemeral vLLM GPU nodes via Karpenter with 30-second post-session termination.
-- Distributed telemetry pipeline built with Apache Kafka, streaming server-sent events to Next.js.
-
-#### [Game Latency Router](https://github.com/DheerajS-DM/ML-based-latency-router)
-*Python, FastAPI, Scikit-Learn, Node.js, Docker, WebSockets*
-- Edge matchmaking proxy dynamically clustering real-time latency vectors to assign players to optimal nodes across AWS, GCP, and Azure.
-
----
-
-### Technical Skills
+### Tech Stack
 
 - **Languages:** Python, C++, C, Rust, Java, JavaScript, TypeScript, SQL
-- **Systems & Cloud:** Linux (cgroups v2), Docker, Kubernetes, Apache Kafka, Redis, PostgreSQL, MongoDB, FastAPI, Node.js
-- **Tools & Frameworks:** React, Next.js, Tauri, Git, Playwright, Maestro, Pytest, Z3 SMT Solver, Polars, NumPy, Pandas
-
----
-
-### Education & Honors
-
-- **B.Tech in Information Technology**, Vellore Institute of Technology (2024 – 2028)
-- **WorldQuant BRAIN Gold Certificate** — Ranked top 10,000 out of 170,000+ participants globally
-- **McKinsey Forward Program** — Selected participant (2026)
-- **State-Level Gold Medallist**, Archery (2024)
+- **Systems & Tools:** Linux, Docker, Kubernetes, Kafka, FastAPI, React, Node.js, PostgreSQL, MongoDB, Git, Playwright
