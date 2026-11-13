@@ -1,7 +1,5 @@
 <div align="center">
-
 # Dheeraj Sutram
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Software+Engineer+%7C+Systems+%26+Quant;B.Tech+Information+Technology+%40+VIT+Vellore;Lead+Patent+Co-Inventor+%7C+Neuro-Symbolic+AI;WorldQuant+BRAIN+Gold+Quant)](https://git.io/typing-svg)
 
 <p align="center">
@@ -12,7 +10,6 @@
 </p>
 
 </div>
-
 ---
 
 Undergraduate in Information Technology at VIT Vellore ('28) working on low-level systems, quantitative finance, and neuro-symbolic reasoning.
@@ -23,19 +20,9 @@ Undergraduate in Information Technology at VIT Vellore ('28) working on low-leve
   Diagnosed mobile OS bridge race conditions on slow networks, implemented payment webhook idempotency, and built an automated 2-agent E2E testing framework using Playwright and Maestro.
 - **Infotact Solutions** — *Full-Stack Intern (May 2025 – Aug 2025)*  
   Developed modular React UI components, designed MongoDB schemas, and built REST APIs with Node.js and Express.
-
 ### Research & Projects
 
 - **[Handwritten Proof Verifier](https://github.com/DheerajS-DM/Assertion-level-Handwriting-Proof-Verification-Engine)** *(Lead Co-Inventor, Indian Patent App: 202641043577)*  
-  Neuro-symbolic verification engine combining DenseNet-121 OCR, Z3 SMT solver, and Lean 4 for real-time mathematical proof checking.
-- **[BrainQuant](https://github.com/DheerajS-DM/alpha-generator)**  
-  Formula discovery and vectorized backtesting engine compiling symbolic ASTs into Polars (`pl.Expr`) and dynamic C JIT routines.
-- **[Checkpoint OS Engine](https://github.com/DheerajS-DM/os-process-checkpoint)**  
-  Userspace process recovery engine tracking dirty memory pages via `mprotect`/`SIGSEGV` with a dynamic round-robin CPU scheduler.
-- **[PromptGuard](https://github.com/DheerajS-DM/PromptGuard-Formal-Security-Engine)**  
-  Microsecond-latency prompt sanitization harness using deterministic DFA state automata in Rust.
-
 ### Tech Stack
-
 - **Languages:** Python, C++, C, Rust, Java, JavaScript, TypeScript, SQL
 - **Systems & Tools:** Linux, Docker, Kubernetes, Kafka, FastAPI, React, Node.js, PostgreSQL, MongoDB, Git, Playwright
